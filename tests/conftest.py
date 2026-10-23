@@ -8,7 +8,7 @@ import pytest
 from courtcam import pipeline
 from courtcam.synth import generate
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[1]
 SAMPLE = REPO / "samples" / "synthetic" / "basketball_half"
 
 

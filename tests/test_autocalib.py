@@ -237,7 +237,7 @@ def test_too_few_confident_landmarks_is_not_ok_but_still_returns_them(profile, m
 
 # --------------------------------------------------------------------- the template fit
 
-SYNTHETIC = Path(__file__).resolve().parents[2] / "samples/synthetic/basketball_half"
+SYNTHETIC = Path(__file__).resolve().parents[1] / "samples/synthetic/basketball_half"
 
 
 def synthetic_frame() -> tuple[np.ndarray, dict[str, tuple[float, float]]]:

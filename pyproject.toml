@@ -22,8 +22,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]
-# `--detector yolo` / `--pose yolo`: ultralytics is AGPL-3.0 (see README "Licence").
-# torch is pinned to the CPU wheels below: CI has no GPU (D-5); the box brings ROCm torch.
+# `--detector yolo` / `--pose yolo`: ultralytics is AGPL-3.0 (see README "License").
+# torch is pinned to the CPU wheels below for CI; GPU hosts install their own torch build.
 yolo = ["ultralytics>=8.3", "torch>=2.4", "torchvision>=0.19"]
 # `--pose vit`: ViTPose (Apache-2.0 weights) through transformers (D-61)
 vitpose = ["transformers>=5", "torch>=2.4"]

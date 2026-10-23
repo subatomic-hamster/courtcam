@@ -14,7 +14,7 @@ import pytest
 
 from courtcam.synth import CameraSpec, build_scene, golden_digest
 
-SYNTH = Path(__file__).resolve().parents[2] / "samples" / "synthetic"
+SYNTH = Path(__file__).resolve().parents[1] / "samples" / "synthetic"
 GOLDENS = sorted(SYNTH.glob("*/*/golden.json"))
 BOX_TOL_PX = 1.5
 KP_TOL_PX = 1.5

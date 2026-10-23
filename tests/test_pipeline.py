@@ -13,7 +13,7 @@ from courtcam.pipeline import STAGES
 from courtcam.schema import CropPath, Events, Game, TracksChunk, read_json
 
 GOLDEN = (
-    Path(__file__).resolve().parents[2]
+    Path(__file__).resolve().parents[1]
     / "samples"
     / "synthetic"
     / "basketball_half"
